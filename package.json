@@ -1,6 +1,6 @@
 {
   "name": "goodpkcs7",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for PKCS7 padding that actually works.",
   "main": "index.js",
   "scripts": {

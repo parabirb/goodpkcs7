@@ -25,6 +25,8 @@ function unpad(message, bytes = 16) {
     if (message.length % bytes !== 0) throw new Error("Message length is not a multiple of bytes!");
     // get the padding length
     let paddingLength = message[message.length - 1];
+    // error if padding length is zero
+    if (paddingLength === 0) throw new Error("Padding length is zero; are you sure this message is padded properly?");
     // error if the padding length is greater than possible
     if (paddingLength > bytes) throw new Error("Padding length is greater than the max number of padding bytes; are you sure this message is padded properly?");
     // go through the array and error if the padding doesn't match
