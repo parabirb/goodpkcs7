@@ -1,0 +1,23 @@
+{
+  "name": "goodpkcs7",
+  "version": "1.0.0",
+  "description": "A package for PKCS7 padding that actually works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parabirb/goodpkcs7.git"
+  },
+  "keywords": [
+    "pkcs7",
+    "padding"
+  ],
+  "author": "parabirb",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/parabirb/goodpkcs7/issues"
+  },
+  "homepage": "https://github.com/parabirb/goodpkcs7#readme"
+}
